@@ -10,7 +10,7 @@ FALLBACK_DOWNLOAD_PATH ?= https://bitcoincore.org/depends-sources
 
 BUILD = $(shell ./config.guess)
 HOST ?= $(BUILD)
-PATCHES_PATH = $(BASEDIR)/patches
+PATCHES_PATH = $(BASEDIR)/patches/qt/
 BASEDIR = $(CURDIR)
 HASH_LENGTH:=11
 DOWNLOAD_CONNECT_TIMEOUT:=10
